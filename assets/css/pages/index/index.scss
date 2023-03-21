@@ -1,0 +1,211 @@
+//variables
+@import '../../main/variables';
+//Navigations
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background-color: $primary-color;
+
+    nav {
+        .container {
+            padding: 20px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .branding-and-menu {
+                display: flex;
+                align-items: center;
+                gap: 24px;
+
+                .brand {
+                    .logo {
+                        height: 78px;
+                    }
+                }
+
+
+                .nav-menu {
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+
+                    li {
+                        a {
+                            color: white;
+                            font-size: 20px;
+                            font-weight: lighter;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+//Hero section 
+
+.hero {
+    background: url('/assets/images/hero\ image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-color: #343434;
+    background-blend-mode: overlay;
+    position: relative;
+
+    height: 100vh;
+
+    &::after {
+        content: url('/assets/images/icons/horizontal.png');
+        position: absolute;
+        right: 0;
+        top: 50vh;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        position: relative;
+        height: 100vh;
+        padding-top: 40vh;
+
+        &::before {
+            content: url('/assets/images/icons/shape\ verticle.png');
+            position: absolute;
+            right: 0;
+            bottom: -170px;
+        }
+
+        p {
+            color: white;
+            width: 50%;
+        }
+    }
+}
+
+//About section
+
+.about-section {
+    position: relative;
+
+    &::after {
+        content: url('/assets/images/icons/horizontal.png');
+        position: absolute;
+        right: 0;
+        top: 50vh;
+    }
+}
+
+.services-section {
+    .container {
+        text-align: center;
+
+        .services-grid {
+            gap: 24px;
+            padding-top: 32px;
+
+            .service {
+                padding: 20px;
+                background-color: #f7f7f7;
+            }
+
+            .fade {
+                background-color: #faf4ec
+            }
+        }
+    }
+}
+
+//Grids for sectors and practise section
+.custom-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+
+    .grid-item {
+        padding: 12px;
+        background-color: $secondary-color-fade;
+    }
+}
+
+.pracice-section {
+    position: relative;
+
+    &::after {
+        content: url('/assets/images/icons/horizontal.png');
+        position: absolute;
+        right: 0;
+        top: 50vh;
+    }
+}
+
+.call-to-action-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: url('/assets/images/hero\ image.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #343434;
+    background-blend-mode: overlay;
+
+    .container {
+        position: relative;
+
+        &::after {
+            content: url('/assets/images/icons/shape\ verticle.png');
+            position: absolute;
+            bottom: -170px;
+            right: 0;
+        }
+
+        .cta {
+            padding: 100px 25%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+            color: white;
+
+            position: relative;
+        }
+
+    }
+}
+
+
+.contact-us {
+    .container {
+        .row {
+            align-items: end;
+
+            .address-map {
+                display: flex;
+
+                .addresses {
+                    display: flex;
+                    flex-wrap: wrap;
+                    gap: 24px;
+
+                    .address {
+                        display: flex;
+                        gap: 6px;
+                        align-items: center;
+
+                        img {
+                            width: 32px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
