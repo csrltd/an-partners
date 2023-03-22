@@ -9,6 +9,7 @@
     <!--Css links-->
     <link rel="stylesheet" href="/assets/css/main/main.css" />
     <link rel="stylesheet" href="/assets/css/pages/index/index.css" />
+    <link rel="stylesheet" href="/assets/css/pages/index/mobile.css" />
   </head>
 
   <body>
@@ -36,6 +37,13 @@
             <a href="">
               <button class="btn-cta btn-gold">Get in touch</button>
             </a>
+          </div>
+
+          <div class="mobile-menu-open">
+            <img src="/assets/images/icons/menu icon.png" alt="">
+          </div>
+          <div class="mobile-menu-close">
+            <img src="/assets/images/icons/close menu icon.png" alt="">
           </div>
         </div>
       </nav>
@@ -65,7 +73,7 @@
         <div class="col">
           <img src="/assets/images/about image.png" alt="" />
         </div>
-        <div class="col">
+        <div class="col col-text">
           <p class="sub-heading">Learn more about us</p>
           <h1 class="title">About us</h1>
           <p class="about-text">
@@ -163,14 +171,14 @@
       </div>
     </section>
 
-    <section class="pracice-section">
+    <section class="practice-section">
       <div class="row container">
         <div class="col">
           <img src="/assets/images/practice image.png" alt="" />
         </div>
 
         <div class="col sectors">
-          <h1 class="title">Our Sectors</h1>
+          <h1 class="title">Our Practices</h1>
           <p>
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
@@ -213,30 +221,65 @@
           <div class="col address-map">
             <div class="addresses">
               <a href="#" class="address email">
-                <img src="/assets/images/icons/Envelope.svg" alt="" /> <span>+250 788 888 888</span>
+                <img src="/assets/images/icons/Envelope.svg" alt="" /> <span>info@anpartners.legal</span>
                
               </a href="#">
               <a href="" class="address phone">
                 <img src="/assets/images/icons/Phone Call.svg" alt="" /> <span>+250 788 888 888</span>
               </a href="#">
               <a href="#" class="address whatsapp">
-                <img src="/assets/images/icons/whatsapp.svg" alt="" /> <span>+250 788 888 888</span>
+                <img src="/assets/images/icons/whatsapp.svg" alt="" /> <span>+250 458 888 888</span>
               </a href="#">
               <a href="#" class="address location">
-                <img src="/assets/images/icons/Map.svg" alt="" /> <span>+250 788 888 888</span>
+                <img src="/assets/images/icons/Map.svg" alt="" /> <span>Kigali Rwanda</span>
               </a href="#">
             </div>
 
             <div class="map">
-              <img src="/assets/images/hero image.jpg" alt="" />
-            </div>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3987.499657960703!2d30.094012214924884!3d-1.9534435372691505!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x64e8a36be1f73c77%3A0x13d6066392f7624c!2sComprehensive%20Staffing%20Resources!5e0!3m2!1sen!2srw!4v1679476133991!5m2!1sen!2srw" frameborder="0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>            
           </div>
 
-          <div class="col">
-            <img src="/assets/images/hero image.jpg" alt="" />
+          <div class="col form">
+            <form action="" method="POST">
+                <input class="half" type="text" name="" id="" placeholder="First name">
+                <input class="half" type="text" name="" id="" placeholder="Last name">
+                <input type="email" name="" id="" placeholder="Your email address">
+                <textarea name="" id="" rows="5" placeholder="Your message"></textarea>
+                <input type="submit" value="Send your message">
+            </form>
           </div>
         </div>
       </div>
     </section>
+
+    <footer class="nav-bar">
+      <nav class="navigation">
+        <div class="container">
+          <div class="branding-and-menu">
+            <div class="brand">
+              <img
+                src="/assets/images/icons/logo modified white 1.png"
+                alt=""
+                class="logo"
+              />
+            </div>
+            <ul class="nav-menu">
+              <li class="nav-item"><a href="">Home</a></li>
+              <li class="nav-item"><a href="">About Us</a></li>
+              <li class="nav-item"><a href="">Services</a></li>
+              <li class="nav-item"><a href="">Sections</a></li>
+              <li class="nav-item"><a href="">Practices</a></li>
+            </ul>
+          </div>
+
+          <div class="col copy">
+            <p class="copy-text">
+              @Copyrights <span class="copy-year">2023</span>, all rights reserved | A&N Partners
+            </p>
+          </div>
+        </div>
+      </nav>
+    </footer>
   </body>
 </html>

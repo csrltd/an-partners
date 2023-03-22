@@ -24,7 +24,7 @@ header {
 
                 .brand {
                     .logo {
-                        height: 78px;
+                        width: 155px;
                     }
                 }
 
@@ -41,6 +41,22 @@ header {
                             font-weight: lighter;
                         }
                     }
+                }
+            }
+
+            .mobile-menu-open {
+                display: none;
+
+                img {
+                    width: 30px;
+                }
+            }
+
+            .mobile-menu-close {
+                display: none;
+
+                img {
+                    width: 30px;
                 }
             }
         }
@@ -134,7 +150,7 @@ header {
     }
 }
 
-.pracice-section {
+.practice-section {
     position: relative;
 
     &::after {
@@ -204,6 +220,69 @@ header {
                             width: 32px;
                         }
                     }
+                }
+
+                .map {
+                    position: relative;
+                    padding-bottom: 56.25%;
+                    height: 0;
+                    overflow: hidden;
+
+                    iframe {
+                        position: absolute;
+                        top: 0;
+                        left: 0;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+footer {
+    background-color: $primary-color;
+
+    nav {
+        .container {
+            padding: 12px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            .branding-and-menu {
+                display: flex;
+                align-items: center;
+                gap: 24px;
+
+                .brand {
+                    .logo {
+                        width: 100px;
+                    }
+                }
+
+
+                .nav-menu {
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+
+                    li {
+                        a {
+                            color: white;
+                            font-size: 12px;
+                            font-weight: lighter;
+                        }
+                    }
+                }
+            }
+
+            .copy {
+                color: white;
+
+                .copy-text {
+                    font-size: 12px;
                 }
             }
         }
