@@ -1,0 +1,218 @@
+@import '../../main/variables';
+
+@media screen and (max-width: 540px) {
+    header {
+        position: relative;
+
+        nav {
+            .container {
+                padding: 20px;
+
+                .branding-and-menu {
+                    .brand {
+                        .logo {
+                            width: 95px;
+                        }
+                    }
+
+                    .nav-menu {
+                        display: none;
+                    }
+                }
+
+                .col-cta {
+                    display: none;
+                }
+
+                .mobile-menu-open {
+                    display: block;
+
+                    img {
+                        width: 30px;
+                    }
+                }
+
+                .mobile-menu-close {
+                    display: none;
+
+                    img {
+                        width: 30px;
+                    }
+                }
+            }
+        }
+    }
+
+    .hero {
+        &::after {
+            content: none;
+            display: none;
+        }
+
+        .container {
+            padding-top: 30vh;
+            text-align: center;
+
+            p {
+                width: 100%;
+            }
+
+            &::before {
+                content: url('/assets/images/icons/shape\ mobile.svg');
+                //position: absolute;
+                bottom: -50px;
+                right: 35%
+            }
+        }
+    }
+
+    .about-section {
+
+        &::after {
+            content: none;
+            display: none;
+        }
+
+        .container {
+            padding-left: 0;
+            padding-right: 0;
+            padding-bottom: 0;
+            gap: 0;
+
+            .col-text {
+                background-color: white;
+                margin-top: -120px;
+                width: 80%;
+                padding: 50px 20px;
+
+                box-shadow: 1px 8px 25px -10px rgba(0, 0, 0, 0.35);
+            }
+        }
+    }
+
+    .services-section {
+        .container {
+            .services-grid {
+                .service {
+                    box-shadow: 1px 8px 25px -10px rgba(0, 0, 0, 0.35);
+                }
+            }
+        }
+    }
+
+    .custom-grid {
+        .grid-item {
+            width: 100%;
+        }
+    }
+
+    .sectors-section {
+        padding-top: 0;
+        position: relative;
+
+        .container {
+            padding: 0;
+
+            .sectors {
+                position: relative;
+                width: 90%;
+                padding: 50px 20px;
+                background-color: white;
+                margin-top: -200px;
+                box-shadow: 1px 8px 25px -10px rgba(0, 0, 0, 0.35);
+            }
+        }
+
+        &::before {
+            position: absolute;
+            content: url('/assets/images/icons/shape\ mobile.svg');
+            //position: absolute;
+            top: -60px;
+            right: 35%
+        }
+
+        .row {
+            flex-direction: column-reverse;
+        }
+    }
+
+    .practice-section {
+        position: relative;
+
+        &::after {
+            display: none;
+            content: none;
+        }
+
+        &::before {
+            position: absolute;
+            content: url('/assets/images/icons/shape\ mobile.svg');
+            //position: absolute;
+            top: 40px;
+            right: 35%
+        }
+
+        .container {
+            .sectors {
+                position: relative;
+                width: 90%;
+                padding: 50px 20px;
+                background-color: white;
+                margin-top: -200px;
+                box-shadow: 1px 8px 25px -10px rgba(0, 0, 0, 0.35);
+            }
+        }
+    }
+
+    .call-to-action-section {
+        position: relative;
+
+        &::before {
+            position: absolute;
+            content: url('/assets/images/icons/shape\ mobile.svg');
+            //position: absolute;
+            top: -60px;
+            right: 35%
+        }
+
+        .container {
+            &::after {
+                content: none;
+                display: none;
+            }
+
+            .cta {
+                padding: 50px 0px;
+            }
+        }
+    }
+
+    .contact-us {
+        .container {
+            text-align: center;
+
+            .row {
+                margin-top: 50px;
+
+                .address-map {
+                    .addresses {
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+    }
+
+    footer {
+        nav {
+            .container {
+                flex-direction: column;
+                gap: 24px;
+
+                .branding-and-menu {
+                    flex-direction: column;
+                }
+            }
+        }
+    }
+}

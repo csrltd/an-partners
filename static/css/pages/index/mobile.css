@@ -1,0 +1,145 @@
+@media screen and (max-width: 540px) {
+  header {
+    position: relative;
+  }
+  header nav .container {
+    padding: 20px;
+  }
+  header nav .container .branding-and-menu .brand .logo {
+    width: 95px;
+  }
+  header nav .container .branding-and-menu .nav-menu {
+    display: none;
+  }
+  header nav .container .col-cta {
+    display: none;
+  }
+  header nav .container .mobile-menu-open {
+    display: block;
+  }
+  header nav .container .mobile-menu-open img {
+    width: 30px;
+  }
+  header nav .container .mobile-menu-close {
+    display: none;
+  }
+  header nav .container .mobile-menu-close img {
+    width: 30px;
+  }
+  .hero::after {
+    content: none;
+    display: none;
+  }
+  .hero .container {
+    padding-top: 30vh;
+    text-align: center;
+  }
+  .hero .container p {
+    width: 100%;
+  }
+  .hero .container::before {
+    content: url("/assets/images/icons/shape mobile.svg");
+    bottom: -50px;
+    right: 35%;
+  }
+  .about-section::after {
+    content: none;
+    display: none;
+  }
+  .about-section .container {
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+    gap: 0;
+  }
+  .about-section .container .col-text {
+    background-color: white;
+    margin-top: -120px;
+    width: 80%;
+    padding: 50px 20px;
+    box-shadow: 1px 8px 25px -10px rgba(0, 0, 0, 0.35);
+  }
+  .services-section .container .services-grid .service {
+    box-shadow: 1px 8px 25px -10px rgba(0, 0, 0, 0.35);
+  }
+  .custom-grid .grid-item {
+    width: 100%;
+  }
+  .sectors-section {
+    padding-top: 0;
+    position: relative;
+  }
+  .sectors-section .container {
+    padding: 0;
+  }
+  .sectors-section .container .sectors {
+    position: relative;
+    width: 90%;
+    padding: 50px 20px;
+    background-color: white;
+    margin-top: -200px;
+    box-shadow: 1px 8px 25px -10px rgba(0, 0, 0, 0.35);
+  }
+  .sectors-section::before {
+    position: absolute;
+    content: url("/assets/images/icons/shape mobile.svg");
+    top: -60px;
+    right: 35%;
+  }
+  .sectors-section .row {
+    flex-direction: column-reverse;
+  }
+  .practice-section {
+    position: relative;
+  }
+  .practice-section::after {
+    display: none;
+    content: none;
+  }
+  .practice-section::before {
+    position: absolute;
+    content: url("/assets/images/icons/shape mobile.svg");
+    top: 40px;
+    right: 35%;
+  }
+  .practice-section .container .sectors {
+    position: relative;
+    width: 90%;
+    padding: 50px 20px;
+    background-color: white;
+    margin-top: -200px;
+    box-shadow: 1px 8px 25px -10px rgba(0, 0, 0, 0.35);
+  }
+  .call-to-action-section {
+    position: relative;
+  }
+  .call-to-action-section::before {
+    position: absolute;
+    content: url("/assets/images/icons/shape mobile.svg");
+    top: -60px;
+    right: 35%;
+  }
+  .call-to-action-section .container::after {
+    content: none;
+    display: none;
+  }
+  .call-to-action-section .container .cta {
+    padding: 50px 0px;
+  }
+  .contact-us .container {
+    text-align: center;
+  }
+  .contact-us .container .row {
+    margin-top: 50px;
+  }
+  .contact-us .container .row .address-map .addresses {
+    justify-content: center;
+  }
+  footer nav .container {
+    flex-direction: column;
+    gap: 24px;
+  }
+  footer nav .container .branding-and-menu {
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=mobile.css.map */
