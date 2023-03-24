@@ -38,7 +38,7 @@
     width: 100%;
   }
   .hero .container::before {
-    content: url("/assets/images/icons/shape mobile.svg");
+    content: url("/static/images/icons/shape mobile.svg");
     bottom: -50px;
     right: 35%;
   }
@@ -82,7 +82,7 @@
   }
   .sectors-section::before {
     position: absolute;
-    content: url("/assets/images/icons/shape mobile.svg");
+    content: url("/static/images/icons/shape mobile.svg");
     top: -60px;
     right: 35%;
   }
@@ -98,7 +98,7 @@
   }
   .practice-section::before {
     position: absolute;
-    content: url("/assets/images/icons/shape mobile.svg");
+    content: url("/static/images/icons/shape mobile.svg");
     top: 40px;
     right: 35%;
   }
@@ -115,7 +115,7 @@
   }
   .call-to-action-section::before {
     position: absolute;
-    content: url("/assets/images/icons/shape mobile.svg");
+    content: url("/static/images/icons/shape mobile.svg");
     top: -60px;
     right: 35%;
   }

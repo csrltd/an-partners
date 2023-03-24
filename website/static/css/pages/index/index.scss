@@ -67,7 +67,7 @@ header {
 //Hero section 
 
 .hero {
-    background: url('/assets/images/hero\ image.jpg');
+    background: url('/static/images/hero\ image.jpg');
     background-position: center;
     background-size: cover;
     background-color: #343434;
@@ -77,7 +77,7 @@ header {
     height: 100vh;
 
     &::after {
-        content: url('/assets/images/icons/horizontal.png');
+        content: url('/static/images/icons/horizontal.png');
         position: absolute;
         right: 0;
         top: 50vh;
@@ -92,7 +92,7 @@ header {
         padding-top: 40vh;
 
         &::before {
-            content: url('/assets/images/icons/shape\ verticle.png');
+            content: url('/static/images/icons/shape\ verticle.png');
             position: absolute;
             right: 0;
             bottom: -170px;
@@ -111,7 +111,7 @@ header {
     position: relative;
 
     &::after {
-        content: url('/assets/images/icons/horizontal.png');
+        content: url('/static/images/icons/horizontal.png');
         position: absolute;
         right: 0;
         top: 50vh;
@@ -154,7 +154,7 @@ header {
     position: relative;
 
     &::after {
-        content: url('/assets/images/icons/horizontal.png');
+        content: url('/static/images/icons/horizontal.png');
         position: absolute;
         right: 0;
         top: 50vh;
@@ -166,7 +166,7 @@ header {
     align-items: center;
     justify-content: center;
 
-    background: url('/assets/images/hero\ image.jpg');
+    background: url('/static/images/hero\ image.jpg');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -177,7 +177,7 @@ header {
         position: relative;
 
         &::after {
-            content: url('/assets/images/icons/shape\ verticle.png');
+            content: url('/static/images/icons/shape\ verticle.png');
             position: absolute;
             bottom: -170px;
             right: 0;

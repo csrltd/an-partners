@@ -46,6 +46,14 @@ form {
   justify-content: space-between;
   gap: 12px;
 }
+form .message {
+  font-size: 24px;
+  color: #D4AF73;
+}
+form .messagefailed {
+  font-size: 24px;
+  color: red;
+}
 form input,
 form textarea {
   padding: 17px 25px;
