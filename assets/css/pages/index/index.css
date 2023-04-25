@@ -4,7 +4,7 @@ header {
   left: 0;
   right: 0;
   z-index: 1000;
-  background-color: #343434;
+  transition: linear 0.3s;
 }
 header nav .container {
   padding: 20px 0;
