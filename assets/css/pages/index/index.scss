@@ -2,6 +2,10 @@
 @import '../../main/variables';
 //Navigations
 
+html {
+    scroll-behavior: smooth;
+}
+
 header {
     position: fixed;
     top: 0;
